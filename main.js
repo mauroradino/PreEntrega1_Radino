@@ -15,6 +15,7 @@ totalAlumnos = Number(prompt("determine la cantidad total de alumnos"))
         ausentes++
       }}
       let presentismo = (presentes * 100)/totalAlumnos
+    console.log(`El numero total de alumnos es: ${totalAlumnos}`)  
     console.log(`hay ${presentes} alumnos presentes`)
     console.log(`hay ${ausentes} alumnos ausentes`)
     console.log(`hay ${presentismo}% de presentismo`)
